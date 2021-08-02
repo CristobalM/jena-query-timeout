@@ -5,7 +5,7 @@ mvn package
 # run
 
 ```
-java -jar target/jena-query-timeout-1.0-SNAPSHOT-jar-with-dependencies.jar \ \
+java -jar target/jena-query-timeout-1.0-SNAPSHOT-jar-with-dependencies.jar \
 -d <dataset-folder> -q <query-file> -t <timeout-ms>
 ```
 
